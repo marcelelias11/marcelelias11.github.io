@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fisionassau - Centro de Treinamento</title>
+    <style>
+        /* Global Styles */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: white;
+        }
+
+        /* Homepage Styles */
+        #home {
+            background-image: url('background-image.jpg');
+            background-size: cover;
+            background-position: center;
+            text-align: center;
+            padding: 100px;
+            color: white;
+        }
+
+        /* Services Styles */
+        #servicos {
+            background-color: #f7f7f7;
+            padding: 30px;
+        }
+
+        ul {
+            list-style: disc;
+            padding-left: 20px;
+        }
+
+        /* Contact Form Styles */
+        form {
+            background-color: #f7f7f7;
+            padding: 30px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+
+        input[type="submit"] {
+            background-color: #333;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Footer Styles */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>Fisionassau - Centro de Treinamento</h1>
+        <nav>
+            <ul>
+                <li><a href="./Myllena.html">Início</a></li>
+                <li><a href="./MyllenaServicos.html">Serviços</a></li>
+                <li><a href="./MyllenaHorarios.html">Horários</a></li>
+                <li><a href="./MyllenaContato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Homepage -->
+    <section id="home">
+        <h2>Bem-vindo ao Fisionassau!</h2>
+        <p>Seja bem-vindo ao nosso centro de treinamento. Aqui, você encontrará tudo o que precisa para alcançar seus objetivos de condicionamento físico.</p>
+    </section>
+
+    <!-- Serviços Oferecidos -->
+    <section id="servicos">
+        <h2>Serviços Oferecidos</h2>
+        <ul>
+            <li>Treinamento de musculação</li>
+            <li>Aulas de aeróbica</li>
+            <li>Yoga e meditação</li>
+            <li>Assessoria nutricional</li>
+        </ul>
+    </section>
+
+    <!-- Horários de Funcionamento -->
+    <section id="horarios">
+        <h2>Horários de Funcionamento</h2>
+        <p>Estamos abertos de segunda a sexta-feira, das 6h às 22h, e aos sábados das 8h às 18h. Venha nos visitar!</p>
+    </section>
+
+    <!-- Formulário de Contato -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="seu-script-de-processamento-de-formulario.php" method="POST">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Fisionassau - Centro de Treinamento</p>
+    </footer>
+</body>
+</html>
