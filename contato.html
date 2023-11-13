@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UniKids</title>
+	<script src="./dropdown.js"></script>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+
+<body>
+    <div id="header" class="header">
+        <img src="UniKids1.png" alt="Logo da nossa instituição!">
+		<button onclick="dropdown()" id="dropbtn" class="dropbtn">Placeholder</button>
+        <div id="dropdown" class="navbar">
+			<ul>
+                <li><a href="./index.html">Início</a></li>
+                <li><a href="./noticias.html">Notícias</a></li>
+                <li><a href="./calendario.html">Calendário</a></li>
+				<li><a href="./galeria.html">Galeria</a></li>
+                <li><a href="./contato.html">Contato</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <section id="contato">
+        <h2 id="entreemcontato">Entre em Contato</h2>
+        <p id="preenchaformulario">Preencha o formulário abaixo para entrar em contato conosco:</p>
+        <form onsubmit="return enviarFormulario();">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+			<label for="telefone">Telefone:</label>
+            <input type="text" id="telefone" name="telefone" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+			<label for="assunto">Assunto:</label>
+            <textarea type="text" id="assunto" name="Assunto" required></textarea>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <script>
+        function enviarFormulario() {
+
+            alert("Informações foram enviadas com sucesso, logo logo enviaremos um email para você!");
+            window.location.href = "./index.html";
+            return false;
+            document.getElementById("nome").value = "";
+            document.getElementById("email").value = "";
+            document.getElementById("mensagem").value = "";
+        }
+    </script>
+
+    <footer>
+        <p>&copy; 2023 UniKids</p>
+    </footer>
+</body>
+
+</html>
