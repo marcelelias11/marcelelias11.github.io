@@ -32,6 +32,7 @@ window.onclick = function(event) {
 		var showbtn = document.getElementById("dropbtn");	
 		if (showbtn.classList.contains('hidebutton')) {
 				showbtn.classList.remove('hidebutton');
+				showbtn.classList.toggle("showbutton");
 		}
 		let id = null;
 		let pos = 230;
