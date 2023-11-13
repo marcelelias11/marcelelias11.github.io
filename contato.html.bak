@@ -13,7 +13,7 @@
     <div id="header" class="header">
 		<script>
 		function height() {
-			console.log(document.getElementById("header").offsetHeight);
+			console.log(document.getElementById("header").height);
 		}
 		height();
 		</script>

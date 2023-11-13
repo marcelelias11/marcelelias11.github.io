@@ -157,7 +157,7 @@ form button {
         text-align: center;
 		position: relative;
 		display: inline-block;
-		height: 160px;
+		height: 180px;
     }
 
 	/* Dropdown Button */

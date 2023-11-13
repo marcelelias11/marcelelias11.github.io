@@ -47,5 +47,6 @@ window.onclick = function(event) {
 			}
 		document.getElementById("dropbtn").classList.toggle("showbutton");
 		}
+		}
 	}
 }
