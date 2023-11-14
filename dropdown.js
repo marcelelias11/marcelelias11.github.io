@@ -19,6 +19,7 @@ function dropdown() {
 	document.getElementById("dropbtn").classList.toggle("hidebutton");
 }
 // Close the dropdown if the user clicks outside of it
+if (pos == 230){
 window.onclick = function(event) {
 	if (!event.target.matches('.dropbtn')) {
 		var dropdowns = document.getElementsByClassName("navbar");
@@ -49,4 +50,5 @@ window.onclick = function(event) {
 		document.getElementById("dropbtn").classList.toggle("showbutton");
 		}
 	}
+}
 }
