@@ -17,9 +17,10 @@ function dropdown() {
 	}
 	document.getElementById("dropdown").classList.toggle("show");
 	document.getElementById("dropbtn").classList.toggle("hidebutton");
+	let screenextended = 1;
 }
 // Close the dropdown if the user clicks outside of it
-//if (pos == 230){
+if (screenextended == 1){
 window.onclick = function(event) {
 	if (!event.target.matches('.dropbtn')) {
 		var dropdowns = document.getElementsByClassName("navbar");
