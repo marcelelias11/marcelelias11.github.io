@@ -7,7 +7,7 @@ function dropdown() {
 	clearInterval(id);
 	id = setInterval(frame, 5);
 		function frame() {
-		if (pos == 230) {
+		if (pos == 240) {
 			clearInterval(id);
 		} 
 		else {
@@ -21,8 +21,8 @@ function dropdown() {
 }
 //dummy
 // Close the dropdown if the user clicks outside of it
-if (screenextended == 1) {
-	window.onclick = function(event) {
+window.onclick = function(event) {
+	if (screenextended == 1) {
 		if (!event.target.matches('.dropbtn')) {
 			var dropdowns = document.getElementsByClassName("navbar");
 			var i;
@@ -38,7 +38,7 @@ if (screenextended == 1) {
 					showbtn.classList.toggle("showbutton");
 			}
 			let id = null;
-			let pos = 230;
+			let pos = 240;
 			clearInterval(id);
 			id = setInterval(frame, 5);
 			function frame() {
@@ -52,6 +52,7 @@ if (screenextended == 1) {
 			document.getElementById("dropbtn").classList.toggle("showbutton");
 			}
 		}
+		var screenextended = 0;
 	}
-	var screenextended = 0;
+	
 }
