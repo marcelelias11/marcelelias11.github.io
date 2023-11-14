@@ -52,4 +52,5 @@ window.onclick = function(event) {
 		}
 	}
 }
-//}
+	let screenextended = 0;
+}
