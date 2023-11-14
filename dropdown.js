@@ -17,7 +17,7 @@ function dropdown() {
 	}
 	document.getElementById("dropdown").classList.toggle("show");
 	document.getElementById("dropbtn").classList.toggle("hidebutton");
-	let screenextended = 1;
+	var screenextended = 1;
 }
 // Close the dropdown if the user clicks outside of it
 if (screenextended == 1) {
@@ -52,5 +52,5 @@ if (screenextended == 1) {
 			}
 		}
 	}
-	let screenextended = 0;
+	var screenextended = 0;
 }
