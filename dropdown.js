@@ -52,5 +52,5 @@ if (screenextended == 1){
 			}
 		}
 	}
-	let screenextended = 0;
+	//let screenextended = 0;
 }
