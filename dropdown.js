@@ -19,6 +19,7 @@ function dropdown() {
 	document.getElementById("dropbtn").classList.toggle("hidebutton");
 	var screenextended = 1;
 }
+//dummy
 // Close the dropdown if the user clicks outside of it
 if (screenextended == 1) {
 	window.onclick = function(event) {
