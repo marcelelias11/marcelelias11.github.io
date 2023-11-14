@@ -21,36 +21,36 @@ function dropdown() {
 }
 // Close the dropdown if the user clicks outside of it
 if (screenextended == 1){
-window.onclick = function(event) {
-	if (!event.target.matches('.dropbtn')) {
-		var dropdowns = document.getElementsByClassName("navbar");
-		var i;
-		for (i = 0; i < dropdowns.length; i++) {
-			var openDropdown = dropdowns[i];
-			if (openDropdown.classList.contains('show')) {
-				openDropdown.classList.remove('show');
+	window.onclick = function(event) {
+		if (!event.target.matches('.dropbtn')) {
+			var dropdowns = document.getElementsByClassName("navbar");
+			var i;
+			for (i = 0; i < dropdowns.length; i++) {
+				var openDropdown = dropdowns[i];
+				if (openDropdown.classList.contains('show')) {
+					openDropdown.classList.remove('show');
+				}
 			}
-		}
-		var showbtn = document.getElementById("dropbtn");	
-		if (showbtn.classList.contains('hidebutton')) {
-				showbtn.classList.remove('hidebutton');
-				showbtn.classList.toggle("showbutton");
-		}
-		let id = null;
-		let pos = 230;
-		clearInterval(id);
-		id = setInterval(frame, 5);
-		function frame() {
-			if (pos == 160) {
-				clearInterval(id);
-			} 
-			else {
-				header.style.height = pos + "px"; 
-				pos--;
+			var showbtn = document.getElementById("dropbtn");	
+			if (showbtn.classList.contains('hidebutton')) {
+					showbtn.classList.remove('hidebutton');
+					showbtn.classList.toggle("showbutton");
 			}
-		document.getElementById("dropbtn").classList.toggle("showbutton");
+			let id = null;
+			let pos = 230;
+			clearInterval(id);
+			id = setInterval(frame, 5);
+			function frame() {
+				if (pos == 160) {
+					clearInterval(id);
+				} 
+				else {
+					header.style.height = pos + "px"; 
+					pos--;
+				}
+			document.getElementById("dropbtn").classList.toggle("showbutton");
+			}
 		}
 	}
-}
 	let screenextended = 0;
 }
