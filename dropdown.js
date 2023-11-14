@@ -20,7 +20,6 @@ function dropdown() {
 	//var screenextended = 1;
 }
 // Close the dropdown if the user clicks outside of it
-//if (screenextended === 1) {
 	window.onclick = function(event) {
 		if (!event.target.matches('.dropbtn')) {
 			var dropdowns = document.getElementsByClassName("navbar");
@@ -52,5 +51,3 @@ function dropdown() {
 			}
 		}
 	}
-	//var screenextended = 0;
-//}
