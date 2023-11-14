@@ -22,6 +22,7 @@ function dropdown() {
 //dummy
 // Close the dropdown if the user clicks outside of it
 window.onclick = function(event) {
+	var screenextended;
 	if (screenextended == 1) {
 		if (!event.target.matches('.dropbtn')) {
 			var dropdowns = document.getElementsByClassName("navbar");
