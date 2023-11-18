@@ -174,28 +174,20 @@ form button:hover {
 	/* Dropdown Button */
 	.dropbtn {
 		display:block;
-		background-color: #3498DB;
-		color: white;
-		padding: 16px;
-		font-size: 16px;
-		border: none;
+		background-color: transparent;
+		border-color: transparent;
 	}
 	
 	.dropbtn:hover {
-		background-color: #2980B9;
+
 	}
 	/* Dropdown Button */
 	.upbtn {
 		display:none;
-		background-color: #3498DB;
-		color: white;
-		padding: 16px;
-		font-size: 16px;
-		border: none;
 	}
 	
 	.upbtn:hover {
-		background-color: #2980B9;
+		
 	}
 	
     .navbar {
@@ -224,11 +216,8 @@ form button:hover {
 	}
 	.showbutton{
 		display:block;
-		background-color: #3498DB;
-		color: white;
-		padding: 16px;
-		font-size: 16px;
-		border: none;
+		background-color: transparent;
+		border-color: transparent;
 	}
     #texto {
         text-align: left;

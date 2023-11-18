@@ -7,11 +7,11 @@ if (screenextended == 0) {
 		document.getElementById("dropbtn").classList.toggle("hidebutton");
 		let id = null;
 		const header = document.getElementById("header");
-		let pos = 160;
+		let pos = 159;
 		clearInterval(id);
 		id = setInterval(frame, 1);
 			function frame() {
-			if (pos == 400) {
+			if (pos == 401) {
 				clearInterval(id);
 				document.getElementById("dropdown").classList.toggle("show");
 				document.getElementById("upbtn").classList.toggle("showbutton");
@@ -28,11 +28,11 @@ if (screenextended == 1) {
 	function dropup() {
 		let id = null;
 		const header = document.getElementById("header");
-		let pos = 400;
+		let pos = 401;
 		clearInterval(id);
 		id = setInterval(frame, 1);
 			function frame() {
-			if (pos == 160) {
+			if (pos == 159) {
 				clearInterval(id);
 			} 
 			else {
