@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fisionassau - Centro de Treinamento</title>
-    <link rel="stylesheet" href="MyllenaEstilo.css">
+    <title>UniKids</title>
+	<script src="./dropdown.js"></script>
+    <link rel="stylesheet" href="estilo.css">
 </head>
-<body>
-    <!-- Header -->
-    <header>
-        <h1>Fisionassau - Centro de Treinamento</h1>
-        <nav>
-            <ul>
-                <li><a href="./Myllena.html">Início</a></li>
-                <li><a href="./MyllenaServicos.html">Serviços</a></li>
-                <li><a href="./MyllenaHorarios.html">Horários</a></li>
-                <li><a href="./MyllenaContato.html">Contato</a></li>
-            </ul>
-        </nav>
-    </header>
 
-    <!-- Homepage -->
-    <section id="home">
-        <h2>Bem-vindo ao Fisionassau!</h2>
-        <p>Seja bem-vindo ao nosso centro de treinamento. Aqui, você encontrará tudo o que precisa para alcançar seus objetivos de condicionamento físico.</p>
+<body>
+    <div id="header" class="header">
+        <img src="UniKids1.png" alt="Logo da nossa instituição!">
+		<button onclick="dropdown()" id="dropbtn" class="dropbtn">Placeholder</button>
+		<button onclick="dropup()" id="upbtn" class="upbtn">Placeholder 2</button>
+        <div id="dropdown" class="navbar">
+                <a href="./index.html">Início</a>
+                <a href="./noticias.html">Notícias</a>
+                <a href="./calendario.html">Calendário</a>
+				<a href="./galeria.html">Galeria</a>
+                <a href="./contato.html">Contato</a>
+        </div>
+    </div>
+    <section id="inicio">
+        <h2>Bem-vindo à UniKids!</h2>
+        <p>Onde a evolução dos seus pequenos é a nossa prioridade!</p>
+        <div id="texto">
+            <img id="pilates" src="pilates.jpeg" alt="">
+            <h3>Nossa missão</h3>
+            <p>Aqui na UniKids, a segurança e o desenvolvimento de seus filhos são a coisa mais importante para nós!</p>
+        </div>
+
     </section>
 
-    <!-- Footer -->
+
+
+    <section id="mapa">
+        <div class="iframe">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3917.5000992723376!2d-37.07535322508868!3d-10.92554522203911!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x71ab3f0b6497777%3A0x7b47144950f4af68!2sUNINASSAU%20-%20Aracaju!5e0!3m2!1spt-BR!2sbr!4v1696282271648!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+    </section>
+
+
+
     <footer>
-        <p>&copy; 2023 Fisionassau - Centro de Treinamento</p>
+        <p>&copy; 2023 UniKids</p>
+		<p>Desenvolvedores:</p>
+		<p>Marcelo Elias de Araújo Júnior</p>
+		<p>Marcelo Elias de Araújo Júnior</p>
     </footer>
 </body>
+
 </html>

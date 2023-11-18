@@ -4,14 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>UniKids Notícias</title>
+    <title>UniKids Calendário</title>
 	<script src="./dropdown.js"></script>
     <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
     <div id="header" class="header">
-        <img src="./imagens/UniKids1.png" alt="Logo da nossa instituição!">
+        <img src="UniKids1.png" alt="Logo da nossa instituição!">
 		<button onclick="dropdown()" id="dropbtn" class="dropbtn">Placeholder</button>
 		<button onclick="dropup()" id="upbtn" class="upbtn">Placeholder 2</button>
         <div id="dropdown" class="navbar">
@@ -22,15 +22,39 @@
                 <a href="./contato.html">Contato</a>
         </div>
     </div>
-    <section id="servicos">
-		<h2>12/05/2023 - Dia das Mães</h2>
-		<p>Esse ano, nossos alunos fizeram uma homenagem para as suas mães! Foi um momento muito comovente, demonstrando gratidão pelas mulheres que as criaram a as sustentaram!</p>
-        <h2>24/07/2023 - Encontro entre Professores e Alunos</h2>
-        <p>Esse mês, tivemos o encontro entre professores e alunos da UniKids! Foi um momento de mais proximidade entre os educadores e nossos educandos, e envolveu muita diversão e descontração!</p>
-		<h2>22/08/2023 - Dia do Folclore</h2>
-		<p>É dia de comemorar a cultura brasileira! Hoje aprendemos sobre diversas figuras do folclore brasileiro, como o Saci, a Cuca, e o Curupira!</p>
-    </section>
 
+
+    <section id="eventos">
+		<h1>Janeiro</h1>
+		<ul>
+			<li>15/02 - Início das Aulas</li>
+		</ul>
+		<h1>Fevereiro</h1>
+		<ul>
+			<li>08/02 - Festinha de Carnaval</li>
+			<li>21/02 - Viagem até o Projeto Tamar</li>
+		</ul>
+		<h1>Março</h1>
+		<ul>
+			<li>04/03 - Viagem ao Museu da Gente Sergipana</li>
+			<li>28/03 - Caça aos Ovos de Páscoa</li>
+		</ul>
+		<h1>Abril</h1>
+		<ul>
+			<li>05/04 - Viagem ao Zoológico de Aracaju</li>
+			<li>27/04 - Festa do Pijama</li>
+		</ul>
+		<h1>Maio</h1>
+		<ul>
+			<li>10/05 - Festa de Dia das Mães</li>
+		</ul>
+		<h1>Junho</h1>
+		<ul>
+			<li>20/06 - Quadrilha Junina</li>
+			<li>21/06 - Recesso Junino</li>
+		</ul>
+    </section>
+	
     <footer>
         <p>&copy; 2023 UniKids</p>
 		<p>Desenvolvedores:</p>
