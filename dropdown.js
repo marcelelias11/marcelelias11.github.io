@@ -9,7 +9,7 @@ if (screenextended == 0) {
 		const header = document.getElementById("header");
 		let pos = 159;
 		clearInterval(id);
-		id = setInterval(frame, 1);
+		id = setInterval(frame, 0.1);
 			function frame() {
 			if (pos == 401) {
 				clearInterval(id);
@@ -30,7 +30,7 @@ if (screenextended == 1) {
 		const header = document.getElementById("header");
 		let pos = 401;
 		clearInterval(id);
-		id = setInterval(frame, 1);
+		id = setInterval(frame, 0.1);
 			function frame() {
 			if (pos == 159) {
 				clearInterval(id);
